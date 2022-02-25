@@ -1,0 +1,30 @@
+{
+  "name": "@siddjain/react-file-input",
+  "version": "0.1.1",
+  "description": "Bare-bones file picker for react with no dependencies that allows for ordering and deleting the files selected",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siddjain/react-file-input.git"
+  },
+  "keywords": [
+    "file",
+    "picker",
+    "multi-file",
+    "input",
+    "ordered",
+    "editable"
+  ],
+  "author": "Siddharth Jain",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siddjain/react-file-input/issues"
+  },
+  "homepage": "https://github.com/siddjain/react-file-input#readme",
+  "peerDependencies": {
+    "react": ">=16.8"
+ }
+}
