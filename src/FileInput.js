@@ -7,7 +7,7 @@
 
 import React, { useState } from "react";
 
-function FileInput({ onChange, maxFileSize, value, accept, maxFileCount }) {
+const FileInput = ({ onChange, maxFileSize, value, accept, maxFileCount }) => {
   const [list, setList] = useState(value || []);
 
   const triggerUpdate = () => {
